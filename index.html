@@ -2,66 +2,110 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Ana Sayfa | Simay Ünal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Simay Ünal</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; margin-bottom: 5px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 5px; margin-top: 20px; text-transform: uppercase; font-size: 1.2em; }
+        h3 { margin-bottom: 2px; font-size: 1.1em; }
+        .contact-info { margin-bottom: 20px; font-size: 0.9em; }
+        .job-title { font-style: italic; color: #555; }
+        .date { float: right; font-weight: bold; }
+        ul { padding-left: 20px; }
+        .skills-list { list-style-type: none; padding: 0; }
+        .skills-list li { display: inline-block; background: #f4f4f4; padding: 5px 10px; margin: 2px; border-radius: 3px; font-size: 0.9em; }
+        footer { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 10px; font-style: italic; }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Simay Ünal</h1>
-        <p>Bilgisayar Mühendisliği | Web Programlama Öğrencisi</p>
+        <h1>SİMAY ÜNAL</h1>
+        <div class="contact-info">
+            BİLGİSAYAR MÜHENDİSLİĞİ ÖĞRENCİSİ<br>
+            📍 İstanbul/Kartal  | 📞 (+90) 506 530 86 17 <br>
+            📧 <a href="mailto:smynl2004@gmail.com">smynl2004@gmail.com</a> <br>
+            🔗 <a href="https://linkedin.com/in/simay-ünal-b00bb3355/">LinkedIn</a> | 💻 <a href="https://github.com/S1mayUnal">GitHub</a> 
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="about.html">Hakkımda</a></li>
-            <li><a href="interests.html">İlgi Alanlarım</a></li>
-            <li><a href="contact.html">İletişim</a></li>
+    <section>
+        <h2>HAKKIMDA</h2>
+        <p>
+            Frontend geliştirme ağırlıklı çalışan, öğrenmeye açık ve yeni teknolojilere hızlı adapte olabilen bir yazılım geliştiriciyim. 
+            Kullanıcı deneyimi odaklı arayüzler oluşturma konusunda deneyimliyim. 
+            Python, veri analizi ve yapay zeka alanlarına özel ilgi duyuyor, kendimi full-stack seviyesine taşımayı hedefliyorum. 
+        </p>
+    </section>
+
+    <section>
+        <h2>İŞ DENEYİMİ</h2>
+        <div>
+            <span class="date">Haziran 2025 - Günümüz </span>
+            <h3>Gratas Solutions </h3>
+            <span class="job-title">Stajyer </span>
+            <ul>
+                <li>Figma tasarımlarını baz alarak Vue.js ve Tailwind CSS ile responsive, pixel-perfect frontend geliştirme. </li>
+                <li>SEO optimizasyonları ile Lighthouse skorlarını 100 seviyesine çıkarma. </li>
+                <li>Component-based mimari ile sürdürülebilir arayüz bileşenleri geliştirme. </li>
+                <li>Cypress kullanarak web uygulamaları için uçtan uca (E2E) test senaryoları kurgulama. </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>EĞİTİM</h2>
+        <div>
+            <span class="date">2022 - 2027 </span>
+            <h3>Marmara Üniversitesi </h3>
+            <p>Bilgisayar Mühendisliği  (GPA: 3.04/4.0) </p>
+        </div>
+        <div>
+            <span class="date">2018 - 2022 </span>
+            <h3>Şehit İlhan Varank Fen Lisesi </h3>
+            <p>GPA: 94.5/100 </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>TEKNİK BECERİLER</h2>
+        <ul class="skills-list">
+            <li>Vue.js </li>
+            <li>Tailwind CSS </li>
+            <li>Python </li>
+            <li>JavaScript </li>
+            <li>Cypress </li>
+            <li>GitHub </li>
+            <li>Figma</li>
         </ul>
-    </nav>
+    </section>
 
-    <main>
-        <section>
-            <h2>Hoş Geldiniz</h2>
-            <p>Merhaba! Ben Simay. Web teknolojileri ve modern mühendislik çözümleri üzerine kendimi geliştiriyorum.</p>
-        </section>
+    <section>
+        <h2>SERTİFİKALAR</h2>
+        <ul>
+            <li>Python: Yapay Zeka ve Veri Bilimi için Python Programlama (21.01.2025) </li>
+            <li>Yapay Zeka ve Algoritmalarına Giriş (27.03.2025) </li>
+            <li>Vue.JS (08.07.2025) </li>
+            <li>JAVA ile Programlamaya Giriş (10.06.2025) </li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>Hızlı Bilgiler</h2>
-            <ul>
-                <li><strong>Üniversite:</strong> Marmara Üniversitesi</li>
-                <li><strong>Bölüm:</strong> Bilgisayar Mühendisliği</li>
-                <li><strong>Odak Alanları:</strong> Yapay Zekâ, Veri Analizi ve Arayüz Geliştirme</li>
-                <li><strong>Özellik:</strong> Hızlı öğrenen ve farklı teknoloji yığınlarına kolayca uyum sağlayan bir geliştiriciyim.</li>
-            </ul>
-        </section>
+    <section>
+        <h2>WEB PROGRAMLAMA ÇALIŞMALARIM</h2>
+        <ul>
+            <li><a href="Hafta2.html">Hafta 2 Uygulaması</a></li>
+            <li><a href="hafta3.html">Hafta 3 Uygulaması</a></li>
+            <li><a href="Hafta4.html">Hafta 4 Uygulaması</a></li>
+            <li><a href="Hafta5.html">Hafta 5 Uygulaması</a></li>
+            <li><a href="Hafta6_1.html">Hafta 6 Uygulama 1</a></li>
+            <li><a href="Hafta6_2.html">Hafta 6 Uygulama 2</a></li>
+            <li><a href="Hafta7.html">Hafta 7 Uygulaması</a></li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>Faydalı Bağlantılar</h2>
-            <ul>
-                <li><a href="https://github.com" target="_blank">GitHub Profilim</a></li>
-                <li><a href="https://tailwindcss.com" target="_blank">Tailwind CSS Dokümantasyonu</a></li>
-            </ul>
-        </section>
-
-        <nav>
-            <h2>Web Programlama Çalışmalarım</h2>
-            <ul>
-                <li><a href="Hafta2.html">Hafta 2</a></li>
-                <li><a href="hafta3.html">Hafta 3</a></li>
-                <li><a href="Hafta4.html">Hafta 4</a></li>
-                <li><a href="Hafta5.html">Hafta 5</a></li>
-                <li><a href="Hafta6_1.html">Hafta 6 Uygulama 1</a></li>
-                <li><a href="Hafta6_2.html">Hafta 6 Uygulama 2</a></li>
-                <li><a href="Hafta7.html">Hafta 7</a></li>
-            </ul>
-        </nav>
-    </main>
-
-    <hr>
-    
     <footer>
-        <p><em>© 2026 Simay Ünal | Web Programlama Dersi</em></p>
+        <p>© 2026 Simay Ünal | Bu CV ATS uyumlu HTML formatında hazırlanmıştır.</p>
     </footer>
 
 </body>
